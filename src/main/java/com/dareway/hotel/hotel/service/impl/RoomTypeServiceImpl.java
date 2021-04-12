@@ -17,4 +17,9 @@ public class RoomTypeServiceImpl implements RoomTypeService {
     public List<RoomType> getHotelTypeByHotelId(Integer hotelId) {
         return roomTypeMapper.getHotelTypeByHotelId(hotelId);
     }
+
+    @Override
+    public int addRoomType(RoomType roomType) {
+        return roomTypeMapper.addRoomType(roomType);
+    }
 }

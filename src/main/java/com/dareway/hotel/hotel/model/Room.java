@@ -1,7 +1,9 @@
 package com.dareway.hotel.hotel.model;
 
-import java.io.Serializable;
+import lombok.Data;
 
+import java.io.Serializable;
+@Data
 public class Room implements Serializable {
     private int room_id;
     private String room_name;
