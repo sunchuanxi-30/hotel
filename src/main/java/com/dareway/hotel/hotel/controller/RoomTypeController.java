@@ -17,7 +17,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/hotelType")
-public class RoomTypeContorller {
+public class RoomTypeController {
     @Autowired
     private RoomTypeService roomTypeService;
 
