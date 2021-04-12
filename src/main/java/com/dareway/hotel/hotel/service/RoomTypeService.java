@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface RoomTypeService {
     public List<RoomType> getHotelTypeByHotelId(Integer hotelId);
+    public int addRoomType(RoomType roomType);
 }
